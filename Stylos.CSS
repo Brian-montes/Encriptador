@@ -1,0 +1,131 @@
+body, .AreaEncriptado{
+    background-color:aliceblue;
+}
+.Logo{
+    flex: 120px 48px;
+padding: 0px;
+position: absolute;
+width: 120px;
+height: 48px;
+left: 40px;
+top: 50px;
+}
+.main{
+    display:inline-block;
+    padding: 0 80%;
+}
+::placeholder{
+    color: #0A3871;
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+.AreaEncriptado{
+    /*margin: 2em;*/
+    padding: 48px 80px;
+    font-size: 20px;
+    border: none;
+    display:inline-block;
+
+}
+/*.TextoEncriptado{
+    
+    
+    
+
+}*/
+.InputEncriptado{
+    padding: 5% 20%;
+    margin: 0px 16px;
+    
+}
+#TxtEncriptado{
+    margin: 0 50% 10%;
+    padding: 10px 80px;
+    
+}
+#Txt{
+    font-size: 20px;
+}
+.Signo{
+padding: 0 10%  0;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+}
+#texto{
+    /* Solo letras minúsculas y sin acentos */
+
+width: 205px;
+height: 18px;
+display: inline-block;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+/* identical to box height, or 18px */
+
+/* Gray/gray-400 */
+color: #495057;
+
+opacity: 0.8;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.btnEncriptar{
+    /* Button */
+
+/* Auto layout */
+display: inline-block;
+padding: 20px;
+width: 228px;
+height: 50px;
+transition: 1s;
+
+/* Dark blue/dark-blue-300 */
+background: #083b7a;
+border-radius: 30px;
+
+/* Inside auto layout */
+order: 10px;
+flex-grow: 0;
+color: aliceblue;
+margin: 0 1em 10px 25%;
+}
+.btnEncriptar:hover{
+    background:hsl(216, 100%, 75%)
+}
+
+.btnDesEncriptar{
+    /* Button */
+
+box-sizing: border-box;
+
+/* Auto layout */
+flex-direction: row;
+align-items: flex-start;
+padding: 20px;
+gap: 8px;
+
+width: 228px;
+height: 50px;
+margin: 0 1em 0 25%;
+
+/* Light gray */
+background: rgb(195, 204, 216);
+/* Dark blue/dark-blue-300 */
+border: 1px solid #0A3871;
+border-radius: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
